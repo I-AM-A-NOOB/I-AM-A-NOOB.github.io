@@ -1,94 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-cn">
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f0f0f0;
-            /* 默认背景颜色 */
-        }
-
-        .bg {
-            background-image: url('clouds.jfif');
-        }
-
-        .mica {
-            position: fixed;
-            width: 70vw;
-            height: 70vh;
-            left: 15vw;
-            padding: 16px 16px 16px 30px;
-            margin: 15vh 0;
-            border-radius: 8px;
-            border-width: thin;
-            border-style: solid;
-            border-color: #e1e6ea;
-            -webkit-backdrop-filter: blur(40px);
-            backdrop-filter: blur(40px);
-            background-color: #f7f9fcdb;
-            overflow-y: auto;
-            box-shadow: 0px 25.6px 57.6px rgb(0 0 0 / 14%), 0px 0px 16.4px rgb(0 0 0 / 12%);
-        }
-
-        .btn {
-            cursor: pointer;
-            font-family: inherit;
-            display: inline-block;
-            text-align: center;
-            vertical-align: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            border: 1px solid transparent;
-            padding: .5rem;
-            width: 20%;
-            font-size: inherit;
-            border-radius: .25rem;
-        }
-
-        .btn:hover {
-            filter: brightness(1.1);
-        }
-
-        .btn-info {
-            color: #fff;
-            background-color: #17a2b8;
-            border-color: #17a2b8;
-        }
-
-        .btn-secondary {
-            color: #000;
-            background-color: #f8fafd;
-            border-color: #c4cad0;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            .mica {
-                color: white;
-                background-color: #232734db;
-                border-color: #2d2d2d1a;
-            }
-
-            .btn-secondary {
-                color: #fff;
-                background-color: #2d2d2d;
-                border-color: #303030;
-            }
-        }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StarWarp · 星际跃迁 — 班级高校分布图</title>
+<link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-    <script src="setBingBackground.js" />
-</body>
+  <div id="app">
+    <canvas id="scene"></canvas>
+    <div id="labels"></div>
 
+    <aside id="sidebar-left"></aside>
+    <aside id="sidebar-right"></aside>
+
+    <svg id="conn-lines"></svg>
+
+    <header id="hud-top">
+      <h1>StarWarp <span>· 星际跃迁</span></h1>
+    </header>
+
+    <aside id="panel">
+      <div class="panel-head">
+        <h2 id="panel-title">全国概览</h2>
+        <button id="panel-action" class="btn-panel">重置视角</button>
+      </div>
+      <div id="panel-body">
+      </div>
+    </aside>
+
+    <div id="loader">加载地图数据…</div>
+  </div>
+
+  <!-- 用户可编辑配置（普通脚本，先于模块执行） -->
+  <script src="js/config.js"></script>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="js/main.js"></script>
+</body>
 </html>
