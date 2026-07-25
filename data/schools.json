@@ -1,0 +1,244 @@
+{
+    "schools": [
+        {
+            "name": "北京大学",
+            "province": "北京市",
+            "city": "北京",
+            "students": [
+                "ZYH"
+            ]
+        },
+        {
+            "name": "北京航空航天大学",
+            "province": "北京市",
+            "city": "北京",
+            "students": [
+                "FSY",
+                "LYY",
+                "ZH"
+            ]
+        },
+        {
+            "name": "北京理工大学",
+            "province": "北京市",
+            "city": "北京",
+            "students": [
+                "ZZY46"
+            ]
+        },
+        {
+            "name": "清华大学",
+            "province": "北京市",
+            "city": "北京",
+            "students": [
+                "CJH",
+                "JWL",
+                "WBL",
+                "ZJ",
+                "YJY",
+                "LZJ"
+            ]
+        },
+        {
+            "name": "中国人民大学",
+            "province": "北京市",
+            "city": "北京",
+            "students": [
+                "RMX",
+                "ZZY30"
+            ]
+        },
+        {
+            "name": "哈尔滨工业大学（深圳）",
+            "province": "广东省",
+            "city": "深圳",
+            "students": [
+                "CLM",
+                "CJR"
+            ]
+        },
+        {
+            "name": "香港科技大学（广州）",
+            "province": "广东省",
+            "city": "广州",
+            "students": [
+                "CYX5"
+            ]
+        },
+        {
+            "name": "华南理工大学",
+            "province": "广东省",
+            "city": "广州",
+            "students": [
+                "GC"
+            ]
+        },
+        {
+            "name": "中山大学",
+            "province": "广东省",
+            "city": "深圳",
+            "students": [
+                "SZC"
+            ]
+        },
+        {
+            "name": "中山大学",
+            "province": "广东省",
+            "city": "珠海",
+            "students": [
+                "CHF"
+            ]
+        },
+        {
+            "name": "南方医科大学",
+            "province": "广东省",
+            "city": "广州",
+            "students": [
+                "ZFH"
+            ]
+        },
+        {
+            "name": "武汉大学",
+            "province": "湖北省",
+            "city": "武汉",
+            "students": [
+                "CYX46"
+            ]
+        },
+        {
+            "name": "中南大学",
+            "province": "湖南省",
+            "city": "长沙",
+            "students": [
+                "WMT"
+            ]
+        },
+        {
+            "name": "南京大学",
+            "province": "江苏省",
+            "city": "南京",
+            "students": [
+                "CSR"
+            ]
+        },
+        {
+            "name": "西北工业大学",
+            "province": "陕西省",
+            "city": "西安",
+            "students": [
+                "CZH7",
+                "LY",
+                "ZZH"
+            ]
+        },
+        {
+            "name": "复旦大学",
+            "province": "上海市",
+            "city": "上海",
+            "students": [
+                "WEW",
+                "WMQ",
+                "YZH"
+            ]
+        },
+        {
+            "name": "海军军医大学",
+            "province": "上海市",
+            "city": "上海",
+            "students": [
+                "ZLH"
+            ]
+        },
+        {
+            "name": "上海财经大学",
+            "province": "上海市",
+            "city": "上海",
+            "students": [
+                "ZYC"
+            ]
+        },
+        {
+            "name": "上海交通大学",
+            "province": "上海市",
+            "city": "上海",
+            "students": [
+                "CYK",
+                "CZH6",
+                "ZXQ",
+                "LYH",
+                "RQQ",
+                "WZN",
+                "YZY",
+                "CYX32",
+                "SZL",
+                "CMX"
+            ]
+        },
+        {
+            "name": "上海科技大学",
+            "province": "上海市",
+            "city": "上海",
+            "students": [
+                "CYY"
+            ]
+        },
+        {
+            "name": "同济大学",
+            "province": "上海市",
+            "city": "上海",
+            "students": [
+                "CBK",
+                "YY"
+            ]
+        },
+        {
+            "name": "四川大学",
+            "province": "四川省",
+            "city": "成都",
+            "students": [
+                "DK"
+            ]
+        },
+        {
+            "name": "南开大学",
+            "province": "天津市",
+            "city": "天津",
+            "students": [
+                "SM"
+            ]
+        },
+        {
+            "name": "香港大学",
+            "province": "香港特别行政区",
+            "city": "香港",
+            "students": [
+                "FHY"
+            ]
+        },
+        {
+            "name": "香港科技大学",
+            "province": "香港特别行政区",
+            "city": "香港",
+            "students": [
+                "LDJ"
+            ]
+        },
+        {
+            "name": "香港中文大学",
+            "province": "香港特别行政区",
+            "city": "香港",
+            "students": [
+                "LHX"
+            ]
+        },
+        {
+            "name": "浙江大学",
+            "province": "浙江省",
+            "city": "杭州",
+            "students": [
+                "LSJ",
+                "ZQ"
+            ]
+        }
+    ]
+}
